@@ -1,6 +1,6 @@
 # Storytelling-using-Tableau
 
-#Project Overview
+# Project Overview
 This Tableau visualization project leverages detailed sales and customer demographic data to analyze sales performance across various product categories and regions. It aims to provide stakeholders with actionable insights to inform strategic decisions related to marketing, sales, and customer relationship management.
 
 # Data Preparation
@@ -10,18 +10,20 @@ Superstore.csv: Contains comprehensive sales transaction details, including prod
 Customer.csv: Provides customer demographic data that enhances sales data with insights into customer behaviors and preferences.
 
 # Data Integration and Cleaning
-## Data Merging: Merged superstore.csv and customer.csv based on customer identifiers, enriching the sales data with demographic insights.
+## Data Merging: 
+Merged superstore.csv and customer.csv based on customer identifiers, enriching the sales data with demographic insights.
 ## Cleaning Steps:
-## Error Correction: Rectified data inconsistencies and anomalies, such as incorrect or unrealistic sales values.
-## Normalization: Standardized data formats across both datasets to ensure uniformity.
-## Handling Missing Values: Applied methods like mean imputation for continuous variables and mode imputation for categorical variables to address missing data.
-## Outlier Detection: Identified and treated outliers using statistical methods to prevent distortion in sales analysis.
-## Data Validation: Ensured accuracy and validity of data by cross-verifying sales figures and customer information across both datasets.
+1) Error Correction: Rectified data inconsistencies and anomalies, such as incorrect or unrealistic sales values.
+2) Normalization: Standardized data formats across both datasets to ensure uniformity.
+3) Handling Missing Values: Applied methods like mean imputation for continuous variables and mode imputation for categorical variables to address missing data.
+4) Outlier Detection: Identified and treated outliers using statistical methods to prevent distortion in sales analysis.
+5) Data Validation: Ensured accuracy and validity of data by cross-verifying sales figures and customer information across both datasets.
 
 # Visualization and Analysis
 ## Tools Used
 Tableau Desktop: Employed for crafting detailed, interactive dashboards that facilitate deep dives into the data.
 Tableau Public: Used for disseminating the visualizations to a broader audience of stakeholders.
+
 ## Key Dashboards
 Sales Per Category and Region: Displays comprehensive views of sales volumes across different regions and categories, identifying high-performing and underperforming segments.
 Profit and Sales Comparison Based on Discount: Analyzes the relationship between discount practices and profitability, highlighting optimal discount strategies.
